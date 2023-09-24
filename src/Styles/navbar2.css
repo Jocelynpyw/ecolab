@@ -1,0 +1,368 @@
+:root {
+  --primary-color: #37517e;
+  --secondary-color: blue;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* background-color: red; */
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h {
+  font-family: "Jost", sans-serif;
+}
+header {
+  background-size: cover;
+}
+/* ///////////////////////////////////////// SIDEBAR STYLE START //////////////////////////////////// */
+#sidebarIdContainer {
+  position: absolute;
+  /* position: fixed; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 20000;
+  transition: all 0.6 ease;
+}
+#sidebarId {
+  position: fixed;
+  height: 95%;
+  width: 90%;
+  background-color: white;
+  z-index: 200001;
+  display: flex;
+}
+.sidebar-container {
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  flex-direction: column;
+}
+.sidebar-container .sidebar-container-item {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #2c4964;
+  border: none;
+}
+.sidebar-container a {
+  list-style: none;
+  color: #082744;
+  text-decoration: none;
+}
+#close-sidebar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+}
+/* ///////////////////////////////////////// SIDEBAR STYLE END //////////////////////////////////// */
+.envelope {
+  display: flex;
+}
+.navbar {
+  background-color: white;
+  padding: 10px 30px;
+  box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+  position: sticky !important ;
+  top: 0px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+.fa-bar-container {
+  font-size: 30px;
+  display: none;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c4964;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-container li {
+  list-style: none;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 15px;
+}
+.navbar-container li a {
+  text-decoration: none;
+  color: #2c4964;
+}
+#home-nav {
+  color: var(--primary-color);
+}
+.navbar-container li a:hover {
+  color: var(--primary-color);
+  transition: 0.5s ease;
+}
+.navbar-top-icon-container i {
+  margin-left: 5px;
+}
+.navbar-top-icon-container a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #2c4964;
+}
+#btn-whatsapp {
+  background-color: #25d366;
+}
+
+/* -------------section barner style ---------- */
+.navbar-top {
+  color: #082744;
+  padding: 2px 25px;
+  background-color: #fff;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.barner-left {
+  padding: 30px;
+  margin-left: -2rem;
+  margin-top: 6rem;
+}
+.first-text h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #2c4964;
+  margin-top: 5rem;
+  /* margin-bottom: 3rem; */
+
+  font-family: "Raleway", sans-serif;
+}
+.second-text h2 {
+  /* font-size: 1.4rem; */
+  font-size: 24px;
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-ensemble:hover {
+  opacity: 0.9;
+}
+.first-btn-section {
+  margin-top: 5rem;
+}
+.first-btn-section button {
+  margin: 5px;
+}
+
+/* ////////////////////////////////Colaboration section style ////////////// */
+.collaboratiion-section img {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  /* height: 100%; */
+  object-fit: contain;
+  margin-top: 12px;
+}
+.image-collaboration {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.collaboratiion-section {
+  /* background-color: rebeccapurple; */
+}
+/* ///////////////////////////SECTION ABOUT STYLE START//////////////////// */
+
+/* .tittle-level-one::before{
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 3px;
+      background: #47b2e4;
+      bottom: 0;
+      left: calc(50% - 20px);
+  } */
+
+/* ///////////////////////////ACCORTIONN STYLE //////////////////////////// */
+
+/* //////////////////////////STYLE SECTION STAT END ////////////////////////////////////////// */
+/* ///////////////////////////////////////SECTION F A Q START /////////////////////////////////////// */
+
+/* ///////////////////////////////////////SECTION F A Q END /////////////////////////////////////// */
+/* ///////////////////////////////////////SECTION CONNTACT STYLE START ////////////////////////////////// */
+
+/* ///////////////////////////////////////SECTION CONNTACT STYLE END ////////////////////////////////// */
+/* ///////////////////////////////////////SECTON FOOTER STYLE START ///////////////////////////////// */
+
+/* ///////////////////////////////////////SECTON FOOTER STYLE END ///////////////////////////////// */
+/* //////////////////////////////////////SECTION GALLERY START STYLE //////////////////////////////// */
+
+/* ////////////////////////////////////////SECTION PAIMENT STYLE END //////////////////////////////// */
+/* ////////////////////////////////////////SECTION TEMOIGNAGE STYLE START ////////////////////////////////// */
+
+/* //////////////////////////////////////////SECTION DE CONTACT WHATSAPP FIXE  END///////////////////////////// */
+/* //////////////////////////////////////////SECTION DE  DOCUMENT PRESENTATION STYLE START ////////////////////*/
+
+/* //////////////////////////////////////////SECTION DE  DOCUMENT PRESENTATION STYLE END ////////////////////*/
+@media only screen and (max-width: 780px) {
+  header {
+    background-position: bottom right;
+  }
+  /* .first-text h1{
+          font-size: 20rem;
+          font-weight: bold !important
+          ;
+      } */
+  .first-text h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .second-text h2 {
+    text-align: center;
+    font-size: 14px;
+  }
+  /* .navbar{
+          display: none;
+      } */
+  .navbar-container-item-whatsap {
+    /* display: none; */
+  }
+
+  .btn-ensemble-whatsap {
+    /* width: 129px; */
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    background-color: #1977cc;
+    color: white;
+  }
+  .envelope {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  .navbar-top-icon-container {
+    display: none;
+  }
+  .barner-left {
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+  .action-cover-row {
+    margin-top: 1rem;
+  }
+  .btn-action {
+    margin-top: 0;
+    transition: all 0.5s ease-in-out;
+    padding: 15px 15px;
+    margin-left: 1rem;
+  }
+  #action {
+    height: 24rem;
+  }
+  .contact-box-item {
+    margin: 0px;
+  }
+  .footer-bottom-icon-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer-title-box h2 {
+    margin-bottom: 30px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    transform: translateX(0rem);
+  }
+  .footer-texte-box {
+    padding: 20px;
+  }
+  .footer-texte-box p {
+    /* padding: 20px; */
+    transform: translateX(1.8rem);
+  }
+  .footer-title-box h2 {
+    transform: translateX(1.5rem);
+  }
+  #playVideo {
+    margin-top: 40px;
+  }
+  .first-text {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-title-box h2 {
+    transform: translateX(0px);
+    margin-left: 2rem;
+    margin-bottom: -1rem;
+  }
+  .btn-rejoindre {
+    /* margin-top: 2rem; */
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  .navbar-container-item {
+    display: none;
+  }
+  .fa-bar-container {
+    display: block;
+  }
+}
+#footer {
+  /* display: none; */
+}
+
+/* //////////////////////////////////////////////INTRSECTION OBSERVER STYLE START //////////////////////////////////////////////////// */
+/* ce style concerne toutes les annimations qui seront dans l'application          */
+/* .reveal {
+  opacity: 0;
+  transform: translateY(50px);
+} */
+
+.reveal-2 {
+  transition-delay: 0.3s;
+}
+.reveal-3 {
+  transition-delay: 0.4s;
+}
+.reveal-4 {
+  transition-delay: 0.6s;
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
+}
+/* //////////////////////////////////////////////INTRSECTION OBSERVER STYLE END //////////////////////////////////////////////////// */
