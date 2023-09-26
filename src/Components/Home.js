@@ -197,7 +197,199 @@ function Home() {
             <img src="images/IAFarm.PNG" className="logo-farm" />
           </div>
         </div>
-        {/* ///////////////////////////////////////////Les trois images ///////////////////////////////////////////////// */}
+
+        {/*///////////////////////////ECOLAB VOUS ACCOMPAGNE START/////////////////////////////////////////////////////  */}
+
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6 cardContainer">
+              <div className="container">
+                <div className="row">
+                  <h1 className="ecotitlebold">
+                    <span className="textColorGreen">DISPOSITIF CEE,</span>
+                    <br></br>ECOLAB VOUS ACCOMPAGNE
+                  </h1>
+                </div>
+                <div className="row">
+                  <img
+                    alt="images lumiere gratuite en france"
+                    src="images/images_eco.jpg"
+                    className="imagescee"
+                  />
+                </div>
+
+                <div className="row">
+                  <h1 className="ecotitlebold">
+                    RÉNOVEZ VOTRE SYSTEME D'ECLAIRAGE EXTÉRIEUR
+                  </h1>
+                  <p>
+                    Vos projets de rénovation énergétique tel qu'un relamping
+                    peuvent entrer dans le champ d'application des Certificats
+                    d'Economies d'Energie (CEE).
+                  </p>
+                  <p>
+                    <span className="textBackgroundGreen">Comment?</span>
+                  </p>
+                  <p>
+                    En remplaçant votre système d'éclairage actuel obsolète ou
+                    énergivore par des
+                    <strong> solutions LED performantes</strong> offrant un
+                    meilleur confort d'éclairage.
+                  </p>
+                  <p>
+                    <span className="textBackgroundGreen">A la clé ?</span>
+                  </p>
+
+                  <p>
+                    Du matériel mis à votre disposition
+                    <strong> gratuitement* </strong> et une baisse de votre
+                    facture énergétique jusqu'à 80% et une
+                    <strong> amélioration de votre bilan carbone.</strong>
+                  </p>
+                </div>
+                <div className="row">
+                  <img
+                    className="imagescee"
+                    alt="images lumiere gratuite en france"
+                    src="images/image_eco_2.jpg"
+                  />
+                </div>
+                <div className="row">
+                  <h1 className="ecotitlebold">BÉNÉFICIEZ DE LA PRIME CEE</h1>
+                  <p>
+                    XANLITE, marque française spécialiste de la LED depuis plus
+                    de 25 ans vous propose des solutions éligibles à la prime
+                    CEE. Profitez de notre multi-expertise pour mettre en œuvre
+                    et financer votre projet via un accompagnement clé en main.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 cardContainer">
+              <div className="container">
+                <div className="row">
+                  <form id="formulaire">
+                    <div className="container">
+                      <div className="row">
+                        <p>
+                          <span className="textBackgroundGreen">
+                            Profitez rapidement ici ! ! ! ! ! ! ! ! ! ! ! !
+                          </span>
+                        </p>
+                        <div className="col-md-12">
+                          <input
+                            type="text"
+                            value=""
+                            className="input-contact-form"
+                            id="subject-form"
+                            placeholder="Votre raison sociale*"
+                          />
+                        </div>
+                      </div>
+
+                      {/* ----------------------------------------------------------------- */}
+                      <div className="row">
+                        <div className="col-md-12">
+                          <input
+                            type="text"
+                            value=""
+                            className="input-contact-form"
+                            id="subject-form"
+                            placeholder="Votre nom*"
+                          />
+                        </div>
+                      </div>
+
+                      {/* ----------------------------------------------------------------- */}
+                      <div className="row">
+                        <div className="col-md-12">
+                          <input
+                            type="text"
+                            value=""
+                            className="input-contact-form"
+                            id="subject-form"
+                            placeholder="Votre prenom*"
+                          />
+                        </div>
+                      </div>
+
+                      {/* ----------------------------------------------------------------- */}
+                      <div className="row">
+                        <div className="col-md-12">
+                          <input
+                            type="email"
+                            value=""
+                            className="input-contact-form"
+                            id="subject-form"
+                            placeholder="Votre email*"
+                          />
+                        </div>
+                      </div>
+
+                      {/* ----------------------------------------------------------------- */}
+                      <div className="row">
+                        <div className="col-md-12">
+                          <input
+                            type="number"
+                            value=""
+                            className="input-contact-form"
+                            id="subject-form"
+                            placeholder="Votre numero de telephone*"
+                          />
+                        </div>
+                      </div>
+
+                      {/* ----------------------------------------------------------------- */}
+
+                      <div className="row">
+                        <div className="col-md-12">
+                          <textarea
+                            className="textarea-contact-form"
+                            value=""
+                            id="messageForm"
+                            placeholder="Votre message"
+                          ></textarea>
+                        </div>
+                      </div>
+                      {/* ----------------------------------------------------------------- */}
+                      <div className="row">
+                        <div className="col-md-12">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckChecked"
+                              checked="false"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckChecked"
+                            >
+                              J'accepte que mes informations soient utilisées
+                              dans le cadre de ma demande et de la relation
+                              commerciale qui pourrait en découler.
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* ----------------------------------------------------------------- */}
+
+                      <div className="btn-send-box">
+                        <button id="btnsendform">S'inscrire</button>
+                      </div>
+                    </div>
+                  </form>
+
+                  <form></form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*///////////////////////////ECOLAB VOUS ACCOMPAGNE END/////////////////////////////////////////////////////  */}
+        {/* ///////////////////////////////////////////Les trois images start ///////////////////////////////////////////////// */}
         <div
           className="container"
           style={{
