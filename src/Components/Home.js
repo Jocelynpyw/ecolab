@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../Styles/HomeNext.css";
 
 import "../Styles/Home.css";
+import EtapesDossier from "./EtapesDossier";
 // import Maquette from "./Maquette";
 
 function Home() {
@@ -389,6 +390,12 @@ function Home() {
           </div>
         </div>
         {/*///////////////////////////ECOLAB VOUS ACCOMPAGNE END/////////////////////////////////////////////////////  */}
+
+        {/* /////////////////////////////////////////////differentes Etapes Start////////////////////////////////////////////////////// */}
+        <div className="containerCard">
+          <EtapesDossier />
+        </div>
+        {/* /////////////////////////////////////////////differentes Etapes End////////////////////////////////////////////////////// */}
         {/* ///////////////////////////////////////////Les trois images start ///////////////////////////////////////////////// */}
         <div
           className="container"
