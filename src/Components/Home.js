@@ -5,6 +5,7 @@ import "../Styles/HomeNext.css";
 import "../Styles/Home.css";
 import EtapesDossier from "./EtapesDossier";
 import Faq from "./Faq";
+import ProductListHome from "./ProductListHome";
 // import Maquette from "./Maquette";
 
 function Home() {
@@ -563,6 +564,9 @@ function Home() {
           </div>
         </section>
 
+        {/* ///////////////////////////////// SAMES PRODUCT STARTT ///////////////////////////////////////// */}
+        <ProductListHome />
+        {/* ///////////////////////////////// PRODUCT END///////////////////////////////////////// */}
         {/* /////////////////////////////////FOIRE AUX QUESTIONS START///////////////////////////////////////// */}
         <Faq />
         {/* /////////////////////////////////FOIRE AUX QUESTIONS END///////////////////////////////////////// */}

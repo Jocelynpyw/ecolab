@@ -24,8 +24,8 @@ const Faq = () => {
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseOne"
                   >
-                    <i className="fa-solid fa-circle-question faq-icon"></i>{" "}
-                    Jepeux savoir si c'est possible dans toute la france
+                    <i className="fa-solid fa-circle-question faq-icon"></i> Je
+                    peux savoir si c'est possible dans toute la france
                   </button>
                 </h2>
                 <div
