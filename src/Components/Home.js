@@ -4,6 +4,7 @@ import "../Styles/HomeNext.css";
 
 import "../Styles/Home.css";
 import EtapesDossier from "./EtapesDossier";
+import Faq from "./Faq";
 // import Maquette from "./Maquette";
 
 function Home() {
@@ -561,6 +562,11 @@ function Home() {
             </div>
           </div>
         </section>
+
+        {/* /////////////////////////////////FOIRE AUX QUESTIONS START///////////////////////////////////////// */}
+        <Faq />
+        {/* /////////////////////////////////FOIRE AUX QUESTIONS END///////////////////////////////////////// */}
+
         {/* <!-- -------------------------------------------SECTION CONTACTEZ NOUS START ------------------------------------------- --> */}
         <div id="contact">
           <h1
