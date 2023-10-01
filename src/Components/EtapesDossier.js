@@ -17,7 +17,7 @@ const EtapesDossier = () => {
     {
       id: 4,
       numberetapes: "Etape 4",
-      etapename: "Réalisation des travaux par vos soins",
+      etapename: "Réalisation des travaux par nos soins",
     },
     {
       id: 5,
@@ -27,6 +27,7 @@ const EtapesDossier = () => {
   ];
   return (
     <div className="container etapesContainer">
+      <div className="coverEtapesContainer"></div>
       <div
         className="row "
         style={{

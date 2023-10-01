@@ -13,6 +13,7 @@ function Home() {
   return (
     <>
       <section className="barner container-fluide">
+        <section className="coverBarner"></section>
         {/*                    Nav                           */}
         <nav>
           <div className="logo-box">
@@ -68,7 +69,7 @@ function Home() {
         </div>
       </section>
       <section className="barnerCard container">
-        <img
+        {/* <img
           src="images/mais.PNG"
           style={{
             position: "absolute",
@@ -76,7 +77,7 @@ function Home() {
             right: 15,
             zIndex: "-400",
           }}
-        />
+        /> */}
 
         <nav>
           <div className="logo-box">
@@ -95,12 +96,12 @@ function Home() {
               </li>
               <li>
                 <a href="#" className="nav-link-item ">
-                  PRODUIT
+                  PRODUITS
                 </a>
               </li>
               <li>
                 <a href="#" className="nav-link-item ">
-                  ESPACE PRO
+                  TEMOIGNAGE
                 </a>
               </li>
               <li>
@@ -145,13 +146,17 @@ function Home() {
                 fontWeight: "bold",
               }}
             >
-              Make reliable <br />
-              agriculture decisions with US
+              Prennez de,nouvelles
+              <br />
+              decisions avec nous.
             </h1>
             <p>
-              Get to Know the field in seconds and take informed actions with
-              the Farm.Smart platform.To make farming simple,we analyze
-              satellite images with machine learning technologies.For free
+              <span className="textBackgroundGreen">Qui sommes nous ?</span>
+              GreenEcolab est une entreprise francaise specialise dans la
+              finance , notre mission est de vous accompagner a obternir un
+              nouvel eclairage a{" "}
+              <span className="textBackgroundGreen">1euro</span> dans le cadre
+              d'un programme ecologique lance par le ministere de ...
             </p>
             <div
               style={{
@@ -396,8 +401,12 @@ function Home() {
         {/*///////////////////////////ECOLAB VOUS ACCOMPAGNE END/////////////////////////////////////////////////////  */}
 
         {/* /////////////////////////////////////////////differentes Etapes Start////////////////////////////////////////////////////// */}
-        <div className="containerCard">
-          <EtapesDossier />
+
+        <div>
+          <h1 className="tittle-level-one">En seulement 5 etapes</h1>
+          <div className="containerCard">
+            <EtapesDossier />
+          </div>
         </div>
         {/* /////////////////////////////////////////////differentes Etapes End////////////////////////////////////////////////////// */}
         {/* ///////////////////////////////////////////Les trois images start ///////////////////////////////////////////////// */}
@@ -425,14 +434,14 @@ function Home() {
               className="logo-farm"
               style={{ width: "160px", height: "100px" }}
             />
-            <h1>Easily add courses</h1>
+            <h1>Economie d'energie</h1>
             <p
               style={{
                 textAlign: "center",
               }}
             >
-              We've found all the techniques in Africa and Cameroon - just
-              choose yours
+              Reduisez votre facture d'electricite , en utilisant ces leds plus
+              economiques
             </p>
           </div>
           <div
@@ -450,13 +459,14 @@ function Home() {
               className="logo-farm"
               style={{ width: "160px", height: "100px" }}
             />
-            <h1>Fast data processing</h1>
+            <h1>Economie d'energie</h1>
             <p
               style={{
                 textAlign: "center",
               }}
             >
-              We show a current photo of the field in a second
+              Reduisez votre facture d'electricite , en utilisant ces leds plus
+              economiques
             </p>
           </div>
           <div
@@ -474,13 +484,13 @@ function Home() {
               className="logo-farm"
               style={{ width: "160px", height: "100px" }}
             />
-            <h1>Website and mobile app</h1>
+            <h1>Impact ecologique</h1>
             <p
               style={{
                 textAlign: "center",
               }}
             >
-              It's free Works anywhere with an internet connection
+              Reduissez votre indice carbone,pour un bien a tous
             </p>
           </div>
         </div>
@@ -494,16 +504,13 @@ function Home() {
                   <h1 className="action-title">NOUS REJOINDRE</h1>
                   <p style={{ color: "#fff" }}>
                     Nous sommes present sur toutes ses plates formes{" "}
-                    <strong>
-                      Telegram , Signal , whatsapp ,Facebook , Youtube ,Vk{" "}
-                    </strong>{" "}
-                    ,Nous faisons la différence dans tout ce que nous faisons.
-                    Depuis plusieurs années depuis plusieurs années, de plus en
-                    plus de francais nous font confiance et nous ramènent leurs
-                    proches.
+                    <strong>Telegram , Gmail , whatsapp ,Google</strong> ,Nous
+                    faisons la différence dans tout ce que nous faisons. Depuis
+                    plusieurs années , de plus en plus de francais nous font
+                    confiance et nous ramènent leurs proches.
                     <strong>
                       CONTACTEZ NOUS ET RECEVEZ LE MEILLEUR ECLAIRAGE DE TOUTE
-                      LA FRANCE.
+                      LA FRANCE SEULEMENT 1 EUROS.
                     </strong>
                   </p>
                 </div>

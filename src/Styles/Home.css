@@ -41,11 +41,23 @@ body {
   position: relative;
   height: 100vh;
   width: 100%;
+  /* background: rgba(0, 0, 0, 0.1); */
+  background-image: url("../../public/images/imagesback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   /* background: linear-gradient(-150deg, #222222 15%, #373737 70%, #3c4859 94%); */
   /* background: ; */
-  background: #27ae60;
+
   /* clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 71%, 0 0); */
   z-index: -400;
+}
+.coverBarner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -300;
 }
 .digitalText {
   font-weight: bold;
