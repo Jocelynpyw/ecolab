@@ -6,6 +6,7 @@ import "../Styles/Home.css";
 import EtapesDossier from "./EtapesDossier";
 import Faq from "./Faq";
 import ProductListHome from "./ProductListHome";
+import Testimonial from "./Testimonial";
 // import Maquette from "./Maquette";
 
 function Home() {
@@ -26,7 +27,7 @@ function Home() {
                   className="nav-link-item "
                   style={{ color: "#FFF", fontSize: 14 }}
                 >
-                  Nouvel eclairage
+                  Led Exterieur
                 </a>
               </li>
             </ul>
@@ -37,7 +38,7 @@ function Home() {
 
         <div className="content-barner container" style={{ marginTop: 50 }}>
           <div className="content-barner-left col-md-5 col-sm-0 col-xs-0 ">
-            <p className="digitalText">NOUVEL ECLAIRAGE </p>
+            <p className="digitalText">NOUVEL ECLAIRAGE A 1£ </p>
             {/* <Maquette /> */}
           </div>
           <div
@@ -56,12 +57,12 @@ function Home() {
                 fontSize: 12,
                 fontWeight: "normal",
                 position: "absolute",
-                bottom: 0,
+                bottom: "20px",
               }}
             >
-              Les hommes ont trouvé comment révolutionner l'eclairage des
-              menages et nous sommes là pour les aider a en beneficier
-              gratuitement . et nous sommes là pour les aider.
+              Les hommes ont trouvé un moyen de révolutionner l'eclairage des
+              menages et nous sommes là pour les aider a en beneficier a
+              seulement 1£.
             </h6>
           </div>
         </div>
@@ -260,10 +261,11 @@ function Home() {
                 <div className="row">
                   <h1 className="ecotitlebold">BÉNÉFICIEZ DE LA PRIME CEE</h1>
                   <p>
-                    XANLITE, marque française spécialiste de la LED depuis plus
-                    de 25 ans vous propose des solutions éligibles à la prime
-                    CEE. Profitez de notre multi-expertise pour mettre en œuvre
-                    et financer votre projet via un accompagnement clé en main.
+                    Profitez des produites de marques 100%
+                    francaises,spécialistes de la LED depuis plus de 25 ans vous
+                    propose des solutions éligibles à la prime CEE. Profitez de
+                    notre multi-expertise pour mettre en œuvre et financer votre
+                    projet via un accompagnement clé en main.
                   </p>
                 </div>
               </div>
@@ -572,6 +574,9 @@ function Home() {
         {/* /////////////////////////////////FOIRE AUX QUESTIONS END///////////////////////////////////////// */}
 
         {/* <!-- -------------------------------------------SECTION CONTACTEZ NOUS START ------------------------------------------- --> */}
+        {/* ///////////////////////////////////// TESTIMONIAL START ////////////////////////////////////// */}
+        <Testimonial />
+        {/* ///////////////////////////////////// TESTIMONIAL END ////////////////////////////////////// */}
         <div id="contact">
           <h1
             className="tittle-level-one"
