@@ -61,9 +61,9 @@ function Home() {
                 bottom: "20px",
               }}
             >
-              Les hommes ont trouvé un moyen de révolutionner l'eclairage des
-              menages et nous sommes là pour les aider a en beneficier a
-              seulement 1£.
+              Les hommes ont trouvé un moyen de révolutionner l'eclairage
+              exterieur pour professionels et nous sommes là pour les aider a en
+              beneficier a seulement 1£.
             </h6>
           </div>
         </div>
@@ -152,20 +152,22 @@ function Home() {
             </h1>
             <p>
               <span className="textBackgroundGreen">Qui sommes nous ?</span>
-              GreenEcolab est une entreprise francaise specialise dans la
-              finance , notre mission est de vous accompagner a obternir un
-              nouvel eclairage a{" "}
-              <span className="textBackgroundGreen">1euro</span> dans le cadre
-              d'un programme ecologique lance par le ministere de ...
+              GreenEcolab est une entreprise francaise specialise dans l'energie
+              , notre mission est de vous accompagner a obternir un nouvel
+              eclairage a <span className="textBackgroundGreen">
+                1euro
+              </span>{" "}
+              dans le cadre d'un programme ecologique lance par l'Etat et les
+              pollueurs.
             </p>
-            <div
+            {/* <div
               style={{
                 backgroundColor: "#F9F9F2",
                 width: "20rem",
                 padding: "10px",
               }}
-            >
-              <input
+            > */}
+            {/* <input
                 placeholder="Enter your email..."
                 style={{
                   outline: "none",
@@ -174,8 +176,8 @@ function Home() {
                   borderRadius: "3px",
                   padding: "5px",
                 }}
-              />{" "}
-              <button
+              />{" "} */}
+            {/* <button
                 style={{
                   outline: "none",
                   border: "none",
@@ -186,9 +188,9 @@ function Home() {
                 }}
               >
                 Get Started
-              </button>
-            </div>
-            <p style={{ marginTop: 10 }}>
+              </button> */}
+            {/* </div> */}
+            {/* <p style={{ marginTop: 10 }}>
               <span>Already have an account?</span>{" "}
               <Link
                 to="/login"
@@ -200,7 +202,7 @@ function Home() {
               >
                 Log in
               </Link>{" "}
-            </p>
+            </p> */}
           </div>
           <div className="containerCardRight col-md-6 col-sm-12">
             <img src="images/IAFarm.PNG" className="logo-farm" />
