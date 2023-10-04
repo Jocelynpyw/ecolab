@@ -190,19 +190,6 @@ function Home() {
                 Get Started
               </button> */}
             {/* </div> */}
-            {/* <p style={{ marginTop: 10 }}>
-              <span>Already have an account?</span>{" "}
-              <Link
-                to="/login"
-                style={{
-                  color: "#000",
-                  textDecoration: "none",
-                  fontWeight: "bold",
-                }}
-              >
-                Log in
-              </Link>{" "}
-            </p> */}
           </div>
           <div className="containerCardRight col-md-6 col-sm-12">
             <img src="images/IAFarm.PNG" className="logo-farm" />
